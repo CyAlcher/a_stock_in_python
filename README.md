@@ -27,9 +27,9 @@
 
 ### 1.2 常见金融数据类型  
 - K线数据：`./outputs/kline_data_000001.csv`
-- 分笔数据：`./outputs/tick_data_000001.csv`
+- 分笔数据：`./outputs/tick_data_000001.csv` （akshare已不支持）
 - 财报数据：`./outputs/financial_data_600519.csv`
-- 公告数据：`./outputs/announcement_data_002594.csv`
+- 公告数据：`./outputs/announcement_data_002594.csv` （akshare已不支持）
 - 相关图表：`./outputs/` 目录下的 `*_visualization_*.png` 文件
 
 ## 联系方式
