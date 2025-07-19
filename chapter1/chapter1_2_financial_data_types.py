@@ -72,7 +72,7 @@ K线数据按时间周期可分为：
 try:
     # 获取上证指数日K线数据
     print("正在获取上证指数（000001）近1个月的日K线数据...")
-    stock_code = "000001"
+    stock_code = "sh000001"
     stock_name = "上证指数"
     
     # 获取最近一个月的K线数据
@@ -145,6 +145,7 @@ print("""
 
 try:
     # 获取平安银行的分笔数据
+    print('akshare 接口废弃，使用tushare')
     print("正在获取平安银行（000001）的分笔数据...")
     stock_code = "000001"
     stock_name = "平安银行"
@@ -302,6 +303,7 @@ print("""
 
 try:
     # 获取比亚迪的公告数据
+    print('akshare 接口废弃，使用tushare')
     print("正在获取比亚迪（002594）的公告数据...")
     stock_code = "002594"
     stock_name = "比亚迪"
